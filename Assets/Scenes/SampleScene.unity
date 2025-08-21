@@ -276,7 +276,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.6
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_GravityScale: 1
@@ -290,7 +290,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 6
+  m_Constraints: 4
 --- !u!212 &323983964
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -374,6 +374,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2
+  jumpForce: 2
   playerDirection: {x: 0, y: 0}
 --- !u!1 &519420028
 GameObject:
@@ -1063,7 +1064,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.39773014, y: 0.85600007}
   m_AnchorMax: {x: 0.6144602, y: 0.9815385}
-  m_AnchoredPosition: {x: 1.1864, y: -1}
+  m_AnchoredPosition: {x: 1.1864014, y: -1}
   m_SizeDelta: {x: 2.3728, y: 2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1673242437
